@@ -7,8 +7,3 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
-
-test('it renders a snapshot', () => {
-  const tree = renderer.create(<App/>).toJSON()
-  expect(tree).toMatchSnapshot();
-})
