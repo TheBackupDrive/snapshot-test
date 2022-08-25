@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders github snapshot 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Github Profile Info:
+  </h1>
+  <h2
+    title="Git Hub Name"
+  />
+  <img
+    alt="'s Avatar"
+    src=""
+    title="Avatar"
+  />
+  <h3
+    title="Repos"
+  >
+    Number of Repos 
+     has made: 
+  </h3>
+</div>
+`;
